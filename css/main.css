@@ -902,7 +902,7 @@ h6 {
 	color: #e0dede;
     font-size: 65px;
     font-weight: 700;
-    text-transform: capitalize;
+    
     margin-bottom: 25px;
     line-height: 1.2;
 }
@@ -2891,6 +2891,7 @@ h6 {
 	/*=========== Home ============*/
 	.home .home-content h5 {
         font-size: 18px;
+        
     }
 	
 	.home .home-content h1 {
@@ -2903,6 +2904,14 @@ h6 {
 	
 	.home .home-content .custom-btn {
 		margin-top: 12px;
+    }
+
+    .home.demo3 .home-content h5, .home.demo3 .home-content .my-btn{
+        text-align: center;
+    }
+
+    .home.demo3 .home-content p, .home.demo3 .home-content h1{
+        text-align: center;
     }
 	
 	/*=========== About Us ============*/
